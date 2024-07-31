@@ -1,11 +1,17 @@
 .main-header {
     position: fixed;
-    display: grid;
-    grid-template-columns: 1fr .5fr;
     padding: 15px;
     width: 100%;
     color: #fff;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     border-bottom: 1px solid #8a8a8a;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
 }
 
 .logo {
