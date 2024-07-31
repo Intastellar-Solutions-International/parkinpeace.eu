@@ -1,0 +1,37 @@
+/* Header */
+.main-header {
+    padding: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/* Container */
+.container {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+/* Hero section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+    text-align: center;
+}
