@@ -1,0 +1,19 @@
+.main-header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

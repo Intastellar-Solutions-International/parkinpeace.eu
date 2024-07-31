@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import { json, redirect } from "@remix-run/node";
+import HeroBanner from "~/components/hero-banner";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,12 +11,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div>
-      <h1>Welcome to Remix!</h1>
-      <p>
-        This is a new Remix app. You can start editing it by opening{" "}
-        <code>app/routes/_index.tsx</code>.
-      </p>
-    </div>
+    <>
+      <HeroBanner />
+    </>
   );
 }
